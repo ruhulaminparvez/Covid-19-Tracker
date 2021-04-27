@@ -32,3 +32,14 @@ This project provides updates, symptoms, prevention, and emergency response to t
 <p align="left">
   <img src="https://github.com/Ruhul12/Covid-19-Tracker/blob/main/preview/contract.png">
 </p>
+
+## Technologies
+1. Bootstrap (Front-end)
+2. CSS (Styling)
+3. PHP (Back-end)
+4. MySQL (Database)
+5. API [Covid-19 API Link](https://api.covid19api.com/summary)
+
+## Bugs
+Feel free to email me at ruhulaminparvez007@gmail.com if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you!
+7. 
