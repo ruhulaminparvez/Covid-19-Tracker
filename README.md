@@ -41,4 +41,4 @@ This project provides updates, symptoms, prevention, and emergency response to t
 5. [Covid-19 API](https://api.covid19api.com/summary)
 
 ## Bugs 😒
-Feel free to email me at ruhulaminparvez007@gmail.com if you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you!😊
+If you run into any issues or have questions, ideas or concerns. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Feel free to email me at ruhulaminparvez007@gmail.com, Thank you!😊
