@@ -4,7 +4,7 @@ This project provides updates, symptoms, prevention, and emergency response to t
 
 ## Demontrations 👇
 <p align="left">
-  <img width="580" src="https://github.com/Ruhul12/Covid-19-Tracker/blob/main/preview/preview-covid.gif">
+  <img width="550" src="https://github.com/Ruhul12/Covid-19-Tracker/blob/main/preview/preview-covid.gif">
 </p>
 
 ##### Intro Preview :
