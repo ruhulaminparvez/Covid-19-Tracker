@@ -2,8 +2,8 @@
 
 This project provides updates, symptoms, prevention, and emergency response to the current outbreak of Coronavirus (COVID-19).
 
-## Demontrations 👇
-<p align="left">
+## Demontrations
+<p align="center">
   <img width="580" src="https://github.com/Ruhul12/Covid-19-Tracker/blob/main/preview/preview-covid.gif">
 </p>
 
