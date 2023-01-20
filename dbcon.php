@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "root", "dbcorona");
+$link = mysqli_connect("localhost", "root", "", "db_corona");
  
 // Check connection
 if($link === false){
@@ -8,21 +8,22 @@ if($link === false){
 }
 
 if(isset($_POST['submit'])){
-  $name = mysqli_real_escape_string($link, $_REQUEST['username']);
+  $username = mysqli_real_escape_string($link, $_REQUEST['username']);
   $email = mysqli_real_escape_string($link, $_REQUEST['email']);
   $number = mysqli_real_escape_string($link, $_REQUEST['number']);
-  $stymtoms = ($_REQUEST['coronasym']);
-  $desc = mysqli_real_escape_string($link, $_REQUEST['desc']);
+  $description = mysqli_real_escape_string($link, $_REQUEST['description']);
+  $syndromes = $_POST['coronasym'];
 
   $chk = "";
 
-  foreach($stymtoms as $chk1){
+  foreach($syndromes as $chk1){
     $chk .= $chk1.",";
   }
 }
 
+
 // Attempt insert query execution
-$sql = "INSERT INTO `casecorona`(`username`, `email`, `mobile`, `stymtoms`, `description`) VALUES ('$name', '$email', '$number', '$chk', '$desc')";
+$sql = "INSERT INTO `case-corona`(`username`, `email`, `number`, `syndromes`, `description`) VALUES ('$username', '$email', '$number', '$chk', '$description')";
 if(mysqli_query($link, $sql)){
   ?>
   <script>

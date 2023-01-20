@@ -8,7 +8,7 @@
     <?php include 'link/links.php'; ?>
     <?php include 'css/style.php'; ?>
     <?php include 'dbcon.php'; ?>
-    <?php include 'logic.php'; ?>
+    <?php include 'logic/logic.php'; ?>
   
 </head>
 <body onload="fetch()"> 
@@ -303,31 +303,27 @@
 
           <div class="form-group">
           <label>Select Symptoms</label><br>
-            <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
-            <input type="checkbox" class="custom-control-input" id="customcheckbox1" name="coronasym[]" value="cold">
-            <label for="customcheckbox1" class="custom-control-label">Cold</label>
+           <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
+              <input type="checkbox" class="custom-control-input" id="customcheckbox1" name="coronasym[]" value="cold">
+              <label class="custom-control-label" for="customcheckbox1">Cold</label>
             </div>
-
             <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
-            <input type="checkbox" class="custom-control-input" id="customcheckbox2" name="coronasym[]" value="fever">
-            <label for="customcheckbox2" class="custom-control-label">Fever</label>
+              <input type="checkbox" class="custom-control-input" id="customcheckbox2" name="coronasym[]" value="fever">
+              <label class="custom-control-label" for="customcheckbox2">Fever</label>
             </div>
-
             <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
-            <input type="checkbox" class="custom-control-input" id="customcheckbox3" name="coronasym[]" value="breath">
-            <label for="customcheckbox3" class="custom-control-label"> Difficulty Breath</label>
+              <input type="checkbox" class="custom-control-input" id="customcheckbox3" name="coronasym[]" value="breath">
+              <label class="custom-control-label" for="customcheckbox3">Difficulty in Breath</label>
             </div>
-
             <div class="custom-control custom-checkbox custom-control-inline text-capitalize">
-            <input type="checkbox" class="custom-control-input" id="customcheckbox4" name="coronasym[]" value="weak">
-            <label for="customcheckbox4" class="custom-control-label">Feeling Weak</label>
+              <input type="checkbox" class="custom-control-input" id="customcheckbox4" name="coronasym[]" value="tired">
+              <label class="custom-control-label" for="customcheckbox4">Feeling Weak</label>
             </div>
           </div>
 
-
           <div class="form-group">
             <label >Describe Briefly</label>
-            <textarea class="form-control" name="desc" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary" name="submit">Submit</button>
