@@ -45,15 +45,18 @@ This project provides updates, symptoms, prevention, and emergency response to t
 5. [Covid-19 API](https://api.covid19api.com/summary)
 
 ## How to SetUp this Project on Your Local Machine :
-1. Clone this repo on your local machine using `git clone https://github.com/ruhulaminparvez/Covid-19-Tracker.git`
+1. Clone this repo on your local machine using 
+```git clone https://github.com/ruhulaminparvez/Covid-19-Tracker.git```
 2. Create a database named `db_corona` in your phpmyadmin (MySQL Database).
-3. Create a table named `case-corona` in your `db_corona` database with 6 columns (id, username, email, number, syndromes,description). 
-  - id (int, 255, AI, PK)
-  - username (varchar, 255)
-  - email (varchar, 255)
-  - number (varchar, 255)
-  - syndromes (varchar, 255)
-  - description (varchar, 255)
+3. Create a table named `case-corona` in your `db_corona` database with 6 columns `(id, username, email, number, syndromes,description)`. 
+  ```
+    id (int, 255, AI, PK)
+    username (varchar, 255)
+    email (varchar, 255)
+    number (varchar, 255)
+    syndromes (varchar, 255)
+    description (varchar, 255)
+  ```
 
 4. Run the project on your local server (XAMPP, WAMPP, etc.)
 
